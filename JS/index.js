@@ -2,3 +2,20 @@ var par = '()(((()())))()))()(())(()()()))))())(()((((()()()(()))())()((((((()))
 var insane = par.split('');
 
 //question 1
+var count = 0;
+var count2 = 0;
+
+for (var i = 0; i < insane.length; i++){
+    if(insane[i] === "("){
+        count++;
+    }
+}
+for (var x = 0; x < insane.length; x++){
+    if(insane[x] === ")"){
+        count2++;
+    }
+}
+  console.log (count);
+  console.log (count2);
+
+//question 2
